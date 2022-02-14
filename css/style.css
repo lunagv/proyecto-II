@@ -1,0 +1,236 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: .5em 4em;
+    background-color: #dfe6ed;
+}
+
+.headerLogo img{
+    width: auto;
+    height: 30px;
+    padding-right: .5em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    background-color: #dfe6ed;
+}
+
+.footerNav {
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    padding: 2em;
+}
+
+
+footer li  {
+    padding: 1em;
+
+}
+
+h1 {
+    padding-bottom: 1em;
+}
+
+h3 {
+    padding-bottom: .5em;
+}
+
+
+nav ul, footer ul {
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+    
+}
+
+nav li  {
+    padding: 1em;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content section {
+    width: 100%;
+    align-items: center;
+    padding:4.5em;
+}
+
+.slider {
+    width: 100%;
+    height: 60vh;
+    background-color: #c3cfd9;
+}
+
+
+.serviciosIntro {
+    text-align: center;
+}
+.contenedorServicios , .contenedorGaleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.serviciosAccesos {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-items: center;
+    gap: 2em;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+
+.servicioAccesos--circulo {
+    place-self: center;
+    width: 200px;
+    height: 200px;
+    background-color: #c3cfd9;
+    border-radius: 100%;
+}
+
+.seccionBoton--primario {
+    background-color: #6558f5;
+    padding:.5em 2em .5em 2em;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 3em;
+    
+}
+.seccionBoton--secundario {
+    border: 2px solid #6558f5;
+    padding:.5em 2em .5em 2em;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 3em;
+    
+}
+.seccionBoton--primario a{
+    color: white;
+}
+.seccionBoton--secundario a{
+    color: #6558f5;
+}
+.footerIcon--circulo {
+    place-self: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-right: .5em;
+}
+
+
+.seccionBoton--primario a, .seccionBoton--secundario a{
+    text-decoration: none;
+}
+
+.contenedorPaquetes {
+    background-color: #f7f9fa;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridPaquetes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+.galeriaGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 10px;
+    justify-content: center;
+}
+
+.galeriaGrid img {
+    width: 100%;
+    object-fit: cover;
+    }
+
+.contenedorUbicacion {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f7f9fa;
+    padding: 0 !important;
+}
+
+
+.ubicacionMapa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+.ubicacionMapa {
+margin-bottom: -5px;
+    }
+
+.ubicacionInfo{
+    padding: 2em 4em;
+}
+.ubicacionBotones {
+    display: flex;
+    gap: 1em;
+    }
+    .footerSocial {
+        display: flex;
+        padding: 1em 4em;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+}
+
+.footerLogo img{
+    width: auto;
+    height: 30px;
+    padding-right: .5em;
+}
+
+.footerIcons {
+    display: flex;
+}
